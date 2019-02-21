@@ -3,6 +3,7 @@ SimpleTwine2Unity
 Requires 
 
 Unity 2018.2+
+
 https://html-agility-pack.net/
 
 Simple Importer tool Window->TwineEditor
