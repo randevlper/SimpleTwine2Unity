@@ -70,4 +70,8 @@ public class TwineStory : ScriptableObject {
 		}
 		return TwinePassage.Null;
 	}
+
+	public bool ContainsPassage(string value){
+		return !GetPassage(value).IsNull() && TwinePassage.Null.IsNull();
+	}
 }
